@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'apps.blog.apps.BlogConfig',
     'mptt',
     'django_mptt_admin',
-    'debug_toolbar', # приложение тулбара
+    'debug_toolbar',
+    'apps.accounts',
 ]
 
 MIDDLEWARE = [
