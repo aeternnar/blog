@@ -43,7 +43,6 @@ class PostUpdateForm(PostCreateForm):
         })
 
 
-
 class CommentCreateForm(forms.ModelForm):
     """
     Форма добавления комментариев к статьям
